@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    padding: 88px 80px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1B1B1B;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B1B1B;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1B1B1B;
+}
+ 
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1624F;
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+    max-width: 1120px;
+    border-radius: 28px;
+}
+
+#title{
+    h4{
+        margin-bottom: 8px;
+    }
+}
+
+#descriptionWithImage{
+    p{
+        color: #333333;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 44px;
+    }
+    img{
+        height: 100%;
+        max-height: 650px;
+        object-fit: cover;
+    }
+}
+
+#contentList{
+    padding-top: 64px;
+    border-top: solid 1px #D9D9D9;
+    #titleList{
+        h4{
+            margin-bottom: 2px;
+        }
+        h2{
+            margin-bottom: 8px;
+        }
+        p{
+            color: #333333;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            margin-bottom: 64px;
+        }
+    }
+
+    #placeList{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        .cardTravel{
+            margin-bottom: 48px;
+            img{
+                height: 100%;
+                max-height: 350px;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+            li{
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-top: 4px;
+                }
+                h5{
+                    font-size: 16px;
+                    margin-top: 24px;
+                }
+                ul{
+                    font-size: 16px;
+                    list-style: disc inside;
+                    .history{
+                        span{
+                            color: #0C51A7;
+                        }
+                    }
+                    .couples{
+                        span{
+                            color: #591B98;
+                        }
+                    }
+                    .family{
+                        span{
+                            color: #E5245E;
+                        }
+                    }
+                    .budget{
+                        span{
+                            color: #E95E10;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    border-top: solid #D9D9D9 1px;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-top: 40px;
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        text-align: center;
+    }
+    #credits{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        justify-content: center;
+        margin-top: 65px;
+        span{
+            font-family:'Alice', serif;
+            font-size: 16px;
+            color: #333333;            
+        }
+        img{
+            width: 100%;
+            max-width: 16px;
+        }
+    }
+}
